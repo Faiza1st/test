@@ -48,7 +48,7 @@ img {
     left: 0;
     background: url('./images/yay.png') repeat 0 0;
     pointer-events: none;
-    z-index: 9999;
+    z-index: 99;
     animation: fireworks-animation 5s ease-out;
 }
 
