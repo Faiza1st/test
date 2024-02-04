@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Day Proposal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="proposal-container">
+        <img src="./images/_ (10).jpeg">
+        <h1>Will You Be My Valentine Noah?</h1>
+        <form id="valentine-form">
+            <p>
+                <label for="yes">Yes</label>
+                <input type="radio" name="response" id="yes" value="yes" required>
+            </p>
+            <p>
+                <label for="no">No</label>
+                <input type="radio" name="response" id="no" value="no">
+            </p>
+            <button type="button" onclick="handleResponse()">Submit</button>
+            <p id="reconsider-message" style="color: #e74c3c; display: none;"></p>
+            <img id="cat-image" src="./images/_ (11).jpeg" style="display: none;">
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
